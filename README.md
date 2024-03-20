@@ -20,3 +20,7 @@ npm install -g http-server
 http-server
 ```
 5. By default, http-server will start on port 8080. Open http://localhost:8080 in your web browser to view your project.
+
+### Screenshots
+!["Screenshot of the Webpage"](1.png)
+!["Screenshot of the Webpage"](2.png)
