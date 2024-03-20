@@ -32,13 +32,13 @@ function populateFilters(topics) {
     });
 
     const locationSelect = document.getElementById('locationSelect');
-    locationSelect.add(new Option("All", "All", true, true)); // Add "All" option for locations
+    locationSelect.add(new Option("All", "All", true, true)); 
     locations.forEach(location => {
         locationSelect.add(new Option(location, location));
     });
 
     const programTypeSelect = document.getElementById('programTypeSelect');
-    programTypeSelect.add(new Option("All", "All", true, true)); // Add "All" option for program types
+    programTypeSelect.add(new Option("All", "All", true, true)); 
     programTypes.forEach(type => {
         programTypeSelect.add(new Option(type, type));
     });
@@ -55,7 +55,6 @@ function flattenTopicsToPrograms(topics) {
     let flattenedPrograms = [];
     topics.forEach(topic => {
         topic.programs.forEach(program => {
-            // Optionally, you could add topic information to each program if needed
             flattenedPrograms.push({...program, topicTitle: topic.title});
         });
     });
@@ -100,7 +99,7 @@ function updatePaginationControls() {
     document.getElementById('nextPage').disabled = currentPage >= totalPages;
 }
 
-// sort event 
+// Sort event 
 function sortEvents(programs, sortOrder) {
     return programs.sort((a, b) => {
         const dateA = new Date(a.start_time);
