@@ -1,5 +1,7 @@
 ### About This Project
 This project is for a coding exercise of JavaScript and JSON parsing 
+### Try The Application 
+http://open-day.atwebpages.com/ 
 ### Setting Up
 #### Clone the Repository
 1. Open a terminal window.
@@ -20,3 +22,7 @@ npm install -g http-server
 http-server
 ```
 5. By default, http-server will start on port 8080. Open http://localhost:8080 in your web browser to view your project.
+
+### Screenshots
+!["Screenshot of the Webpage"](1.png)
+!["Screenshot of the Webpage"](2.png)
