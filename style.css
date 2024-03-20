@@ -1,0 +1,79 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+}
+
+header#headerSection {
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#eventHeadline {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+#eventDates {
+    font-size: 1.5rem;
+    font-weight: lighter;
+    opacity: 0.8;
+}
+
+#filterSection .container {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    margin-top: -5rem;
+    z-index: 10;
+    position: relative;
+}
+
+#eventsContainer {
+    margin-top: 2rem;
+}
+
+.event-card {
+    background: white;
+    margin-bottom: 20px;
+    border: 1px solid #eaeaea;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.event-card-header {
+    background-color: #d3374b;
+    color: white;
+    padding: 10px 15px;
+    font-size: 1.25rem;
+}
+
+.event-card-body {
+    padding: 15px;
+}
+
+.event-info {
+    margin-bottom: 10px;
+}
+
+.event-info span {
+    font-weight: bold;
+}
+
+footer {
+    background-color: #f8f9fa;
+    color: #6c757d;
+}
+
+footer p {
+    margin: 0;
+    padding: 10px;
+}
