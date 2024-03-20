@@ -1,5 +1,7 @@
 ### About This Project
 This project is for a coding exercise of JavaScript and JSON parsing 
+### Try The Application 
+http://open-day.atwebpages.com/ 
 ### Setting Up
 #### Clone the Repository
 1. Open a terminal window.
